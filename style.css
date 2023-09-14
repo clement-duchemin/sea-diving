@@ -60,7 +60,7 @@
     height: 500px;
     padding-top: 96px;
     background: linear-gradient(90deg, rgba(46, 46, 53, 0.92) 7.44%,
-     rgba(0, 0, 0, 0.00) 42.18%), url('/images/hero-sea-diving.png');
+     rgba(0, 0, 0, 0.00) 42.18%), url('images/hero-sea-diving.png');
     background-color: lightgray;
     background-size: cover;
     background-repeat: no-repeat;
@@ -378,7 +378,7 @@
     height: 663px;
     padding-top: 96px;
     background: linear-gradient(90deg, rgba(46, 46, 53, 0.92) 7.44%,
-     rgba(0, 0, 0, 0.00) 42.18%), url('/images/wonderful.png');
+     rgba(0, 0, 0, 0.00) 42.18%), url('images/wonderful.png');
     background-color: lightgray;
     background-size: cover;
     background-repeat: no-repeat;
