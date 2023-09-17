@@ -13,12 +13,11 @@
     <title>Document</title>
   </head>
   <body>
+    <!-------------------------navbar---------------------------------------------->
 
-<!-------------------------navbar---------------------------------------------->
-
-    <nav class="navbar navbar-expand-sm">
-      <div class="container text-center">
-        <a class="navbar-brand logo" href="#" id="yo">Ocean<span>wAlk</span></a>
+    <!-- <nav class="navbar navbar-expand-sm">
+      <div class="container">
+        <a class="navbar-brand logo" href="#">Ocean<span>wAlk</span></a>
         <div class="navbar-list">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
@@ -36,11 +35,37 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> -->
 
-<!---------------------- custom section---------------------------------------------->
 
-    <div class="custom-section">
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+      <div class="container">
+          <a class="navbar-brand logo" href="#">Ocean<span>wAlk</span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link nav-li" href="#">Our services</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link nav-li" href="#">Why ocean</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link nav-li" href="#">Gift a stay</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link nav-li" href="#">About us</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+    <!---------------------- custom section---------------------------------------------->
+
+    <!-- <div class="custom-section">
       <div class="container custom-container" id="front">
         <h1>Fill the ocean inside <br />and <span>outside</span></h1>
         <p>
@@ -49,14 +74,33 @@
           safe and memorable.
         </p>
       </div>
+    </div> -->
+
+    <div class="custom-section">
+      <div class="container custom-container">
+        <div class="row">
+          <div class="col-lg-6 d-flex flex-column justify-content-center ">
+            <h1 class="display-4">Fill the ocean inside <br/> and <span>outside</span></h1>
+            <p class="lead">
+              Welcome to the unexplored world of the ocean, where you can experience
+              the marine universe. Our experts and equipment will make your dive
+              safe and memorable.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
-<!---------------------- overlapping section---------------------------------------------->
 
 
-    <div class="container mx-auto overlapping-container">
+
+
+
+    <!---------------------- overlapping section---------------------------------------------->
+
+    <div class="container overlapping-container">
       <div class="row">
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-6">
           <div class="box">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +119,7 @@
             <span>I want to dive in</span>
           </div>
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-md-2 col-sm-6">
           <div class="box">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -98,7 +142,7 @@
             <span>Day</span>
           </div>
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-md-2 col-sm-6">
           <div class="box">
             <div class="box">
               <svg
@@ -126,7 +170,7 @@
             </div>
           </div>
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-md-2 col-sm-6">
           <div class="box">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -143,7 +187,7 @@
             <span>Number</span>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <div class="box last-box">
             <span>Dive me</span>
           </div>
@@ -153,374 +197,594 @@
 
     <!-----------------------------discover section --------------------------------------------------->
 
-
     <section class="discover">
-        <div class="container">
-            <h2>Discover the marine universe with us</h2>
-            <div class="discover-p-a">
-                <p>All types of diving include the necessary 
-                    equipment and instruction before diving. </p>
-                <a href="#">View all choices</a>    
-            </div>
-            <div class="row">
-                    <div class="container">
-                      <div class="row gap">
-
-                      <div class="col-4">
-                        <div class="image-container">
-                          <img src="images/discover1.jpg" alt="" class="img-fluid w-100">
-                        </div>
-                        <div class="text-container">
-                          <div class="island">Island · Bonaire</div>
-                          <div class="d-flex justify-content-between align-items-center mb-2">
-                            <h3 class="mb-0 sub-title">2h Diving</h3>
-                            <div class="price">$450pp</div>
-                          </div>
-                          <p class="text-container-paragraph">The entire island is surrounded by water.
-                            Divers from all over the world come to dive in this amazing sea world.
-                            For more information, you can contact. 
-                          </p>
-                          <div class="d-flex align-items-center">
-                            <div class="stars d-flex">
-                                <span>
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                    <path d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z" fill="#D7FFF1" stroke="#D7FFF1" stroke-linecap="round" stroke-linejoin="round"/>
-                                  </svg>
-                                </span>
-                            </div>
-                            <div class="stars d-flex">
-                              <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                  <path d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z" fill="#D7FFF1" stroke="#D7FFF1" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                              </span>
-                          </div>
-                          <div class="stars d-flex">
-                            <span>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                <path d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z" fill="#D7FFF1" stroke="#D7FFF1" stroke-linecap="round" stroke-linejoin="round"/>
-                              </svg>
-                            </span>
-                        </div>
-                        <div class="stars d-flex">
-                          <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                              <path d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z" stroke="#D7FFF1" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                          </span>
-                      </div>
-                      <div class="stars d-flex">
-                        <span>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z" stroke="#D7FFF1" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                        </span>
-                    </div>
-                            <div class="review">78 reviews</div>
-                          </div>
-                        </div>
-                      </div>
-
-
-                      <div class="col-4">
-                        <div class="image-container">
-                          <img src="images/discover2.jpg" alt="" class="img-fluid w-100">
-                        </div>
-                        <div class="text-container">
-                          <div class="island">ısland · Great Barrıer reef</div>
-                          <div class="d-flex justify-content-between align-items-center mb-2">
-                            <h3 class="mb-0 sub-title">1h Group Diving</h3>
-                            <div class="price">$250pp</div>
-                          </div>
-                          <p class="text-container-paragraph">The most popular place among divers.
-                             Every year this place is visited by more than 100 thousand fans of water amusement.
-                              We've been working on this island for five years.
-                          </p>
-                          <div class="d-flex align-items-center">
-                            <div class="stars d-flex">
-                                <span>
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                    <path d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z" fill="#D7FFF1" stroke="#D7FFF1" stroke-linecap="round" stroke-linejoin="round"/>
-                                  </svg>
-                                </span>
-                            </div>
-                            <div class="stars d-flex">
-                              <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                  <path d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z" fill="#D7FFF1" stroke="#D7FFF1" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                              </span>
-                          </div>
-                          <div class="stars d-flex">
-                            <span>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                <path d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z" fill="#D7FFF1" stroke="#D7FFF1" stroke-linecap="round" stroke-linejoin="round"/>
-                              </svg>
-                            </span>
-                        </div>
-                        <div class="stars d-flex">
-                          <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                              <path d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z" fill="#D7FFF1" stroke="#D7FFF1" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                          </span>
-                      </div>
-                      <div class="stars d-flex">
-                        <span>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z" stroke="#D7FFF1" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                        </span>
-                    </div>
-                            <div class="review">82 reviews</div>
-                          </div>
-                        </div>
-                      </div>
-
-
-
-                      <div class="col-4">
-                        <div class="image-container">
-                          <img src="images/discover3.jpg" alt="" class="img-fluid w-100">
-                        </div>
-                        <div class="text-container">
-                          <div class="island">ısland · Lıttle cayman</div>
-                          <div class="d-flex justify-content-between align-items-center mb-2">
-                            <h3 class="mb-0 sub-title">Deep Diving</h3>
-                            <div class="price">$980pp</div>
-                          </div>
-                          <p class="text-container-paragraph">One of the extreme types of immersion in water.
-                             Perfect as a gift for those who have gone around the world in search of adventure,
-                              as well as those who are looking for new emotions themselves. 
-                          </p>
-                          <div class="d-flex align-items-center">
-                            <div class="stars d-flex">
-                                <span>
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                    <path d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z" fill="#D7FFF1" stroke="#D7FFF1" stroke-linecap="round" stroke-linejoin="round"/>
-                                  </svg>
-                                </span>
-                            </div>
-                            <div class="stars d-flex">
-                              <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                  <path d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z" fill="#D7FFF1" stroke="#D7FFF1" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                              </span>
-                          </div>
-                          <div class="stars d-flex">
-                            <span>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                <path d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z" fill="#D7FFF1" stroke="#D7FFF1" stroke-linecap="round" stroke-linejoin="round"/>
-                              </svg>
-                            </span>
-                        </div>
-                        <div class="stars d-flex">
-                          <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                              <path d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z" fill="#D7FFF1" stroke="#D7FFF1" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                          </span>
-                      </div>
-                      <div class="stars d-flex">
-                        <span>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z" fill="#D7FFF1" stroke="#D7FFF1" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                        </span>
-                    </div>
-                            <div class="review">95 reviews</div>
-                          </div>
-                        </div>
-                      </div>
-            </div>
+      <div class="container">
+        <h2>Discover the marine universe with us</h2>
+        <div class="discover-p-a">
+          <p>
+            All types of diving include the necessary equipment and instruction
+            before diving.
+          </p>
+          <a href="#">View all choices</a>
         </div>
-      </div> 
-    </section>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="image-container">
+              <img src="images/discover1.jpg" alt="" class="img-fluid w-100" />
+            </div>
+            <div class="text-container">
+              <div class="island">Island · Bonaire</div>
+              <div
+                class="d-flex justify-content-between align-items-center mb-2"
+              >
+                <h3 class="mb-0 sub-title">2h Diving</h3>
+                <div class="price">$450pp</div>
+              </div>
+              <p class="text-container-paragraph">
+                The entire island is surrounded by water. Divers from all over
+                the world come to dive in this amazing sea world. For more
+                information, you can contact.
+              </p>
+              <div class="d-flex align-items-center">
+                <div class="stars d-flex">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <path
+                        d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z"
+                        fill="#D7FFF1"
+                        stroke="#D7FFF1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div class="stars d-flex">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <path
+                        d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z"
+                        fill="#D7FFF1"
+                        stroke="#D7FFF1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div class="stars d-flex">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <path
+                        d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z"
+                        fill="#D7FFF1"
+                        stroke="#D7FFF1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div class="stars d-flex">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <path
+                        d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z"
+                        stroke="#D7FFF1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div class="stars d-flex">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <path
+                        d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z"
+                        stroke="#D7FFF1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div class="review">78 reviews</div>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="image-container">
+              <img src="images/discover2.jpg" alt="" class="img-fluid w-100" />
+            </div>
+            <div class="text-container">
+              <div class="island">ısland · Great Barrıer reef</div>
+              <div
+                class="d-flex justify-content-between align-items-center mb-2"
+              >
+                <h3 class="mb-0 sub-title">1h Group Diving</h3>
+                <div class="price">$250pp</div>
+              </div>
+              <p class="text-container-paragraph">
+                The most popular place among divers. Every year this place is
+                visited by more than 100 thousand fans of water amusement. We've
+                been working on this island for five years.
+              </p>
+              <div class="d-flex align-items-center">
+                <div class="stars d-flex">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <path
+                        d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z"
+                        fill="#D7FFF1"
+                        stroke="#D7FFF1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div class="stars d-flex">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <path
+                        d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z"
+                        fill="#D7FFF1"
+                        stroke="#D7FFF1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div class="stars d-flex">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <path
+                        d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z"
+                        fill="#D7FFF1"
+                        stroke="#D7FFF1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div class="stars d-flex">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <path
+                        d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z"
+                        fill="#D7FFF1"
+                        stroke="#D7FFF1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div class="stars d-flex">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <path
+                        d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z"
+                        stroke="#D7FFF1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div class="review">82 reviews</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="image-container">
+              <img src="images/discover3.jpg" alt="" class="img-fluid w-100" />
+            </div>
+            <div class="text-container">
+              <div class="island">ısland · Lıttle cayman</div>
+              <div
+                class="d-flex justify-content-between align-items-center mb-2"
+              >
+                <h3 class="mb-0 sub-title">Deep Diving</h3>
+                <div class="price">$980pp</div>
+              </div>
+              <p class="text-container-paragraph">
+                One of the extreme types of immersion in water. Perfect as a
+                gift for those who have gone around the world in search of
+                adventure, as well as those who are looking for new emotions
+                themselves.
+              </p>
+              <div class="d-flex align-items-center">
+                <div class="stars d-flex">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <path
+                        d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z"
+                        fill="#D7FFF1"
+                        stroke="#D7FFF1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div class="stars d-flex">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <path
+                        d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z"
+                        fill="#D7FFF1"
+                        stroke="#D7FFF1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div class="stars d-flex">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <path
+                        d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z"
+                        fill="#D7FFF1"
+                        stroke="#D7FFF1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div class="stars d-flex">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <path
+                        d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z"
+                        fill="#D7FFF1"
+                        stroke="#D7FFF1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div class="stars d-flex">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                    >
+                      <path
+                        d="M7.99992 1.33337L10.0599 5.50671L14.6666 6.18004L11.3333 9.42671L12.1199 14.0134L7.99992 11.8467L3.87992 14.0134L4.66659 9.42671L1.33325 6.18004L5.93992 5.50671L7.99992 1.33337Z"
+                        fill="#D7FFF1"
+                        stroke="#D7FFF1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <div class="review">95 reviews</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-----------------------------memory section --------------------------------------------------->
 
-
     <section class="memory">
       <div class="container">
-          <h2>Moments for your luxury life</h2>
-          <div class="memory-p-a">
-              <p>We give you an unforgettable ocean experience. </p>
-              <a href="#">View all experiences</a>    
+        <h2>Moments for your luxury life</h2>
+        <div class="memory-p-a">
+          <p>We give you an unforgettable ocean experience.</p>
+          <a href="#">View all experiences</a>
+        </div>
+        <div class="row">
+          
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="image-container">
+              <img src="images/memory1.jpg" alt="" class="img-fluid w-100" />
+            </div>
+            <div class="text-container">
+              <div class="for-those">For those who busy</div>
+              <div
+                class="d-flex justify-content-between align-items-center mb-2"
+              >
+                <h3 class="mb-0 sub-title">Full Package</h3>
+              </div>
+              <p class="text-container-paragraph">
+                This package includes your adventure. Booking all the necessary
+                equipment. You just need to relax, we will take care of the
+                rest.
+              </p>
+            </div>
           </div>
-          <div class="row">
-                  <div class="container">
-                    <div class="row gap">
 
-                    <div class="col-4">
-                      <div class="image-container">
-                        <img src="images/memory1.jpg" alt="" class="img-fluid w-100">
-                      </div>
-                      <div class="text-container">
-                        <div class="for-those">For those who busy</div>
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                          <h3 class="mb-0 sub-title">Full Package</h3>
-                        </div>
-                        <p class="text-container-paragraph">This package includes your adventure.
-                           Booking all the necessary equipment. You just need to relax, we will take care of the rest. 
-                        </p>
-                      </div>
-                    </div>
-
-
-                    <div class="col-4">
-                      <div class="image-container">
-                        <img src="images/memory2.jpg" alt="" class="img-fluid w-100">
-                      </div>
-                      <div class="text-container">
-                        <div class="for-those">For those who Own way</div>
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                          <h3 class="mb-0 sub-title">Ocean Experience</h3>
-                        </div>
-                        <p class="text-container-paragraph">Personal selection of equipment.
-                           You choose a date and we suggest locations based on your requirements.
-                           Suitable for group diving.  
-                        </p>
-                      </div>
-                    </div>
-
-
-
-                    <div class="col-4">
-                      <div class="image-container">
-                        <img src="images/memory3.jpg" alt="" class="img-fluid w-100">
-                      </div>
-                      <div class="text-container">
-                        <div class="for-those">For those who are far</div>
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                          <h3 class="mb-0 sub-title">Visa Needed/Accompanying</h3>
-                        </div>
-                        <p class="text-container-paragraph">If you need to prepare documents for your trip,
-                           we will solve this issue. We look forward to your call to discuss your case.
-                        </p>
-                      </div>
-                    </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="image-container">
+              <img src="images/memory2.jpg" alt="" class="img-fluid w-100" />
+            </div>
+            <div class="text-container">
+              <div class="for-those">For those who Own way</div>
+              <div
+                class="d-flex justify-content-between align-items-center mb-2"
+              >
+                <h3 class="mb-0 sub-title">Ocean Experience</h3>
+              </div>
+              <p class="text-container-paragraph">
+                Personal selection of equipment. You choose a date and we
+                suggest locations based on your requirements. Suitable for group
+                diving.
+              </p>
+            </div>
           </div>
-      </div>
-    </div>
-  </section>
 
-
-<!------------------- wonderful section ------------------------------------------->
-
-
-
-
-<div class="wonderful-section">
-  <div class="container wonderful-container">
-    <h2>A truly wonderful<br />experience</h2>
-    <p>
-      Brilliant for anyone looking to get away from the hustle and
-       bustle of city life or detox from their tech for a few days.
-        I could have stayed another week! <br><br> Really have thought
-         about everything here down to the finest details.
-    </p>
-    <div class="d-flex align-items-center green-star-date">
-      <div class="green-star">
-        <svg xmlns="http://www.w3.org/2000/svg" width="110" height="22" viewBox="0 0 110 22" fill="none">
-          <path d="M0 0H20.7736V21.309H0V0Z" fill="#1BB580"/>
-          <path d="M22.1582 0H42.9318V21.309H22.1582V0Z" fill="#1BB580"/>
-          <path d="M44.3164 0H65.09V21.309H44.3164V0Z" fill="#1BB580"/>
-          <path d="M66.4746 0H87.2482V21.309H66.4746V0Z" fill="#1BB580"/>
-          <path d="M88.6328 0H109.406V21.309H88.6328V0Z" fill="#1BB580"/>
-          <path d="M10.5865 13.8223L13.0471 13.1743L14.0752 16.4669L10.5865 13.8223ZM16.2493 9.56647H11.918L10.5865 5.32812L9.25513 9.56647H4.92383L8.42932 12.1935L7.09791 16.4319L10.6034 13.8048L12.7606 12.1935L16.2493 9.56647Z" fill="white"/>
-          <path d="M32.7447 13.8223L35.2053 13.1743L36.2334 16.4669L32.7447 13.8223ZM38.4075 9.56647H34.0762L32.7447 5.32812L31.4133 9.56647H27.082L30.5875 12.1935L29.2561 16.4319L32.7616 13.8048L34.9188 12.1935L38.4075 9.56647Z" fill="white"/>
-          <path d="M54.9049 13.8223L57.3655 13.1743L58.3935 16.4669L54.9049 13.8223ZM60.5676 9.56647H56.2363L54.9049 5.32812L53.5735 9.56647H49.2422L52.7477 12.1935L51.4163 16.4319L54.9218 13.8048L57.079 12.1935L60.5676 9.56647Z" fill="white"/>
-          <path d="M77.0631 13.8223L79.5237 13.1743L80.5517 16.4669L77.0631 13.8223ZM82.7258 9.56647H78.3945L77.0631 5.32812L75.7317 9.56647H71.4004L74.9059 12.1935L73.5745 16.4319L77.08 13.8048L79.2372 12.1935L82.7258 9.56647Z" fill="white"/>
-          <path d="M99.2213 13.8223L101.682 13.1743L102.71 16.4669L99.2213 13.8223ZM104.884 9.56647H100.553L99.2213 5.32812L97.8899 9.56647H93.5586L97.0641 12.1935L95.7327 16.4319L99.2382 13.8048L101.395 12.1935L104.884 9.56647Z" fill="white"/>
-        </svg>
-      </div>
-      <div class="date">01 Jan 2023</div>
-    </div>
-  </div>
-</div>
-
-
-
-<!-------------------------------------  Footer  --------------------------------------------------------->
-
-
-
-
-
-<footer class="bg-dark text-light py-4">
-  <div class="container d-flex flex-column">
-    <div class="row">
-      <!-- Column 1 -->
-      <div class="col-lg-3 col-md-3">
-        <h4>About us</h4>
-        <ul class="list-unstyled">
-          <li>Our story</li>
-          <li>Why us</li>
-          <li>How it works</li>
-          <li>FAQ</li>
-        </ul>
-      </div>
-      <!-- Column 2 -->
-      <div class="col-lg-3 col-md-3">
-        <h4>We work in</h4>
-        <ul class="list-unstyled">
-          <li>North of London</li>
-          <li>Golden Hideaway</li>
-          <li>Oak Treehouse</li>
-          <li>Acacia Retreat</li>
-          <li>Blue Lagoon</li>
-        </ul>
-      </div>
-      <!-- Column 3 -->
-      <div class="col-lg-3 col-md-3">
-        <h4>Services</h4>
-        <ul class="list-unstyled">
-          <li>Full Package</li>
-          <li>Ocean Experience</li>
-          <li>Visa needed/Accompanying</li>
-        </ul>
-      </div>
-      <!-- Column 4 -->
-      <div class="col-lg-3 col-md-3">
-        <h4>Support</h4>
-        <ul class="list-unstyled">
-          <li>Help</li>
-          <li>Contact us</li>
-          <li>Privacy Policy</li>
-          <li>Terms of Service</li>
-          <li>Complaints Policy</li>
-        </ul>
-      </div>
-    </div>
-    <h2>Sign up to our Newsletter</h2>
-    <div class="row align-items-baseline ">
-      <div class="col-7">
-        <p class="paragraph">For a weekly curated collection of 3 things you can watch,
-           read or listen to switch off from the busy everyday.</p>
-      </div>
-      <div class="col-3">
-        <div class="box box-a">
-          <span class="span-a">abdughafur2000@gmail.com</span>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="image-container">
+              <img src="images/memory3.jpg" alt="" class="img-fluid w-100" />
+            </div>
+            <div class="text-container">
+              <div class="for-those">For those who are far</div>
+              <div
+                class="d-flex justify-content-between align-items-center mb-2"
+              >
+                <h3 class="mb-0 sub-title">Visa Needed/Accompanying</h3>
+              </div>
+              <p class="text-container-paragraph">
+                If you need to prepare documents for your trip, we will solve
+                this issue. We look forward to your call to discuss your case.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-2">
-        <div class="box box-b">
-          <span class="span-b">Join the mailing list</span>
+    </section>
+
+    <!------------------- wonderful section ------------------------------------------->
+
+    <div class="wonderful-section">
+      <div class="container wonderful-container">
+        <h2>A truly wonderful<br />experience</h2>
+        <p>
+          Brilliant for anyone looking to get away from the hustle and bustle of
+          city life or detox from their tech for a few days. I could have stayed
+          another week! <br /><br />
+          Really have thought about everything here down to the finest details.
+        </p>
+        <div class="d-flex align-items-center green-star-date">
+          <div class="green-star">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="110"
+              height="22"
+              viewBox="0 0 110 22"
+              fill="none"
+            >
+              <path d="M0 0H20.7736V21.309H0V0Z" fill="#1BB580" />
+              <path d="M22.1582 0H42.9318V21.309H22.1582V0Z" fill="#1BB580" />
+              <path d="M44.3164 0H65.09V21.309H44.3164V0Z" fill="#1BB580" />
+              <path d="M66.4746 0H87.2482V21.309H66.4746V0Z" fill="#1BB580" />
+              <path d="M88.6328 0H109.406V21.309H88.6328V0Z" fill="#1BB580" />
+              <path
+                d="M10.5865 13.8223L13.0471 13.1743L14.0752 16.4669L10.5865 13.8223ZM16.2493 9.56647H11.918L10.5865 5.32812L9.25513 9.56647H4.92383L8.42932 12.1935L7.09791 16.4319L10.6034 13.8048L12.7606 12.1935L16.2493 9.56647Z"
+                fill="white"
+              />
+              <path
+                d="M32.7447 13.8223L35.2053 13.1743L36.2334 16.4669L32.7447 13.8223ZM38.4075 9.56647H34.0762L32.7447 5.32812L31.4133 9.56647H27.082L30.5875 12.1935L29.2561 16.4319L32.7616 13.8048L34.9188 12.1935L38.4075 9.56647Z"
+                fill="white"
+              />
+              <path
+                d="M54.9049 13.8223L57.3655 13.1743L58.3935 16.4669L54.9049 13.8223ZM60.5676 9.56647H56.2363L54.9049 5.32812L53.5735 9.56647H49.2422L52.7477 12.1935L51.4163 16.4319L54.9218 13.8048L57.079 12.1935L60.5676 9.56647Z"
+                fill="white"
+              />
+              <path
+                d="M77.0631 13.8223L79.5237 13.1743L80.5517 16.4669L77.0631 13.8223ZM82.7258 9.56647H78.3945L77.0631 5.32812L75.7317 9.56647H71.4004L74.9059 12.1935L73.5745 16.4319L77.08 13.8048L79.2372 12.1935L82.7258 9.56647Z"
+                fill="white"
+              />
+              <path
+                d="M99.2213 13.8223L101.682 13.1743L102.71 16.4669L99.2213 13.8223ZM104.884 9.56647H100.553L99.2213 5.32812L97.8899 9.56647H93.5586L97.0641 12.1935L95.7327 16.4319L99.2382 13.8048L101.395 12.1935L104.884 9.56647Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+          <div class="date">01 Jan 2023</div>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12"style="height: 1px; background-color: #346769;"></div>
-    </div>
 
-    <div class="row d-flex justify-content-between align-content-end flex-row flex-nowrap end-footer">
-       <p class="col-6 logo-b">Ocean<span>wolk</span></p>
-       <p class="col-6 d-flex flex-row-reverse trade-brand">© 2023 OceanWalk</p>
-    </div>
-  </div>
-</footer>
+    <!-------------------------------------  Footer  --------------------------------------------------------->
+
+    <footer class="bg-dark text-light py-5">
+      <div class="container d-flex flex-column">
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h4>About us</h4>
+            <ul class="list-unstyled">
+              <li>Our story</li>
+              <li>Why us</li>
+              <li>How it works</li>
+              <li>FAQ</li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h4>We work in</h4>
+            <ul class="list-unstyled">
+              <li>North of London</li>
+              <li>Golden Hideaway</li>
+              <li>Oak Treehouse</li>
+              <li>Acacia Retreat</li>
+              <li>Blue Lagoon</li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h4>Services</h4>
+            <ul class="list-unstyled">
+              <li>Full Package</li>
+              <li>Ocean Experience</li>
+              <li>Visa needed/Accompanying</li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h4>Support</h4>
+            <ul class="list-unstyled">
+              <li>Help</li>
+              <li>Contact us</li>
+              <li>Privacy Policy</li>
+              <li>Terms of Service</li>
+              <li>Complaints Policy</li>
+            </ul>
+          </div>
+        </div>
+
+        <h2>Sign up to our Newsletter</h2>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <p class="paragraph">
+              For a weekly curated collection of 3 things you can watch, read or
+              listen to switch off from the busy everyday.
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="box box-a">
+              <span class="span-a">abdughafur2000@gmail.com</span>
+            </div>
+          </div>
+          <div class="col-12 col-md-2">
+            <div class="box box-b">
+              <span class="span-b">Join the mailing list</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="box-line">
+            <div
+              class="col-12"
+              style="height: 1px; background-color: #346769"
+            ></div>
+          </div>
+        </div>
+
+        <div
+          class="row d-flex justify-content-between align-content-end flex-row flex-nowrap end-footer"
+        >
+          <p class="col-6 logo-b">Ocean<span>wolk</span></p>
+          <p class="col-6 d-flex flex-row-reverse trade-brand">
+            © 2023 OceanWalk
+          </p>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+            <script src="index.js"></script>
+
+
+
+
 
 
 
